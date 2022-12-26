@@ -7,6 +7,10 @@
   min-height: 100vh;
 }
 
+.sectionWrapper{
+  padding: 5rem 0rem;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

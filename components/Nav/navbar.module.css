@@ -1,0 +1,63 @@
+.icon{
+    color: red;
+    flex-basis: 25%;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    z-index: 10;
+    /* background-color: black; */
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+}
+
+.navigations{
+    list-style-type: none;
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation:hover{
+    cursor: pointer;
+}
+
+.signoutBtn{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 9px;
+}
+
+.signout{
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    height: 30px;
+    width: 60px;
+    z-index: 100;
+}
+
+.signoutBtn:hover{
+    cursor: pointer;
+}
+
+.name{
+    position: relative;
+    top: -7px
+}
+
+.dd{
+    transform:rotate(45deg)
+}

@@ -1,0 +1,87 @@
+.container{
+    background-color: black !important;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+
+.leftContent{
+    flex-basis: 50%;
+    text-align:left;
+    height:40vh;
+    margin: 5px 0;
+}
+
+.desc{
+    font-size: 15px;
+}
+
+.rightContent{
+    flex-basis: 50%;
+    overflow-y: scroll;
+    padding-left: 4%;
+    margin: 5px 0;
+}
+
+.leftWrapper{
+    overflow-y: scroll;
+}
+
+.overlay{
+    background-color: black;
+    overflow: hidden;
+}
+
+.title{
+    margin: 1% 0;
+}
+
+.attName{
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.attValue{
+    font-size: 16px;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 450px){
+    .container{
+        background-color: black !important;
+        max-height: 100vh;
+        overflow: scroll;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-y: scroll;
+    }
+
+    .rightContent{
+        overflow-y: scroll;
+        padding-left: 4%;
+        margin: 5px 0;
+    }
+
+    .leftContent{
+        text-align:left;
+        height:40vh;
+        margin: 5px 0;
+    }
+
+    .leftWrapper{
+    overflow-y: scroll;
+}
+}
