@@ -1,4 +1,3 @@
-import { width } from "@mui/system"
 import styles from "./banner.module.css"
 import Image  from "next/image"
 import PlayIcon from "../../public/static/play_icon.svg"

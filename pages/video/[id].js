@@ -1,4 +1,3 @@
-import { style } from "@mui/system";
 import { useRouter } from "next/router"
 import Modal from 'react-modal';
 import styles from "../../styles/video.module.css"
@@ -76,7 +75,7 @@ const Video = (props) => {
         contentLabel="Example Modal"
         onRequestClose={() => router.back()}
         overlayClassName={styles.overlay}
-        className={style.modal}
+        className={styles.modal}
         style={customStyles}
       >
         <div className={styles.frame}>
